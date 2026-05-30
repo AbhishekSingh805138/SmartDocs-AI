@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+*.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# Claude Code
+.claude/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Data files
+backend/data/pdfs/*
+backend/data/processed/*
+backend/data/faiss_index/*
+!backend/data/pdfs/.gitkeep
+!backend/data/processed/.gitkeep
+!backend/data/faiss_index/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+docker/.env
