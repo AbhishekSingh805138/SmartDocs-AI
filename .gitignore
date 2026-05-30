@@ -24,6 +24,8 @@ secrets.json
 # Claude Code
 .claude/
 
+.refact/
+
 # IDE
 .vscode/
 .idea/
